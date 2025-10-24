@@ -1,0 +1,72 @@
+# =========================
+# 📦 Dependencies
+# =========================
+node_modules/
+
+# =========================
+# 🏗️ Build Output
+# =========================
+dist/
+build/
+out/
+
+# =========================
+# ⚡ Vite / Tool Caches
+# =========================
+.vite/
+.cache/
+.parcel-cache/
+
+# =========================
+# ⚙️ Environment Variables
+# (ignore all .env files except the example)
+# =========================
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# =========================
+# 🧪 Test Coverage
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# 🪵 Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# =========================
+# 🧠 Editor / IDE Configs
+# =========================
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+
+# =========================
+# 💻 OS Files
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# =========================
+# 🧰 Misc Caches & Tools
+# =========================
+.eslintcache
+.pnp/
+
+# =========================
+# 📌 Lockfiles (should be committed)
+# =========================
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
